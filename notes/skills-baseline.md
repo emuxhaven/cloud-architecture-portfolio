@@ -10,3 +10,5 @@ Education: BCIT CISY diploma, 2010
 
 What slows me down most: Not practicing the material with couple of examples and understanding it and I need more visual learning than just written.
 so more hands on examples of how things I am learning work than theory.
+
+Not practicing the material with a couple of examples to understand it. I need more visual, hands-on learning than theory - examples of how things actually work.
