@@ -25,3 +25,14 @@
 23. cd — go home
 24. tar -czf backup.tar.gz practice-week2 — archive a folder
 25. ls -lh backup.tar.gz — list with human-readable sizes
+26. sudo adduser testuser — make a new user (sudo password hidden, then the new user's password, Enter to skip details)
+27. id testuser — check a user exists (uid=1001)
+28. find ~/practice-week2 -name "drill2.txt" — find a file by name, shows every copy
+29. less report.txt — read a file page by page (q to quit)
+30. rm drill2.txt — delete a file (no undo, only files I made)
+31. chmod 755 report.txt — user read/write/execute, others read/execute
+32. top — live list of running processes (q to quit)
+33. journalctl --no-pager -n 10 — last 10 system log lines
+34. sudo -l — see what I can run with sudo
+35. ls / — list the root directory
+36. sudo ls /root — list root's home folder (empty on a fresh system)
