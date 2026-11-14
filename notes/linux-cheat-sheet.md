@@ -36,3 +36,8 @@
 34. sudo -l — see what I can run with sudo
 35. ls / — list the root directory
 36. sudo ls /root — list root's home folder (empty on a fresh system)
+37. sudo chown testuser warmup2.txt — change a file's owner
+38. sudo chgrp testuser warmup2.txt — change a file's group
+39. sudo chown msaliba:msaliba warmup2.txt — change owner and group together
+40. grep needs a word AND a file — no file means it waits for keyboard input; Ctrl+C stops it
+41. | sends output into the next command; && runs the next command only if the first one worked
