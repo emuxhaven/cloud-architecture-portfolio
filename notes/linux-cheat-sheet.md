@@ -41,3 +41,10 @@
 39. sudo chown msaliba:msaliba warmup2.txt — change owner and group together
 40. grep needs a word AND a file — no file means it waits for keyboard input; Ctrl+C stops it
 41. | sends output into the next command; && runs the next command only if the first one worked
+42. systemctl list-units --type=service --state=running — list the services that are running
+43. systemctl status ssh — check one service's status (look for Active: active or inactive)
+44. sudo systemctl start ssh — start a service
+45. ssh msaliba@localhost — connect to your own machine (type yes, then your password; exit to log out)
+46. sudo apt update && sudo apt install -y tree — update the package list, then install a package
+47. tree --version — check an installed program's version
+48. journalctl -u ssh --no-pager -n 10 — read one service's last 10 log lines
