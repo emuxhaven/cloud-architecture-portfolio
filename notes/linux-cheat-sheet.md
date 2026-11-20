@@ -48,3 +48,10 @@
 46. sudo apt update && sudo apt install -y tree — update the package list, then install a package
 47. tree --version — check an installed program's version
 48. journalctl -u ssh --no-pager -n 10 — read one service's last 10 log lines
+49. sudo systemctl stop ssh — stop a service
+50. sudo systemctl enable ssh — make a service start on boot
+51. systemctl is-enabled ssh — check if a service starts on boot
+52. apt show tree — show a package's details (version, size, description)
+53. htop — live view of processes, CPU and memory (q to quit; mouse works)
+54. sudo grep sshd /var/log/auth.log | tail -5 — find SSH logins in the login log, last 5
+55. q — quit a pager (less) or htop
